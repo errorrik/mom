@@ -2,20 +2,6 @@ option = {
     "tooltip": {
         "trigger": "axis"
     },
-    "legend": {
-        "data": [
-            "CA19-9(糖链抗原19-9)",
-            "CEA(癌胚抗原)",
-            "CA242(糖链抗原242)",
-            "AFP(甲胎蛋白)",
-            "CA125(糖链抗原125)",
-            "CA15-3(糖链抗原15-3)",
-            "NSE(神经元烯醇化酶)",
-            "ferritin(铁蛋白)",
-            "beta-hCG(人绒毛膜促性腺激素)",
-            "hGH(生长激素)"
-        ]
-    },
     "grid": [],
     "toolbox": {
         "show": false
@@ -275,10 +261,10 @@ for (var i = 0; i < option.yAxis.length; i++) {
     option.yAxis[i].gridIndex = i;
     option.yAxis[i].splitNumber = 2;
     option.grid.push({
-        left: '10%',
-        top: i / option.yAxis.length * 100 + 1 + '%',
-        right: '5%',
-        height: '8%'
+        left: i % 2 ? '55%' : '5%',
+        top: (i - i % 2) / option.yAxis.length * 100 + 2 + '%',
+        width: '40%',
+        height: '18%'
     })
     option.xAxis.push({
         "type": "category",
