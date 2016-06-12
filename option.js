@@ -98,7 +98,8 @@ option = {
             "type": "line",
             "data": [
                 13.65,
-                14.69
+                14.69,
+                12.86
             ],
             "markLine": {
                 "data": [
@@ -114,7 +115,8 @@ option = {
             "type": "line",
             "data": [
                 1.05,
-                1.7
+                1.7,
+                1.96
             ],
             "markLine": {
                 "data": [
@@ -130,7 +132,8 @@ option = {
             "type": "line",
             "data": [
                 5.22,
-                6.48
+                6.48,
+                6.01
             ],
             "markLine": {
                 "data": [
@@ -146,7 +149,8 @@ option = {
             "type": "line",
             "data": [
                 0.79,
-                0.47
+                0.47,
+                1.06
             ],
             "markLine": {
                 "data": [
@@ -162,7 +166,8 @@ option = {
             "type": "line",
             "data": [
                 5.75,
-                2.61
+                2.61,
+                5.06
             ],
             "markLine": {
                 "data": [
@@ -178,7 +183,8 @@ option = {
             "type": "line",
             "data": [
                 17.46,
-                10.36
+                10.36,
+                11.14
             ],
             "yAxisIndex": [5],
             "markLine": {
@@ -195,7 +201,8 @@ option = {
             "type": "line",
             "data": [
                 2.71,
-                2.2
+                2.2,
+                2.83
             ],
             "markLine": {
                 "data": [
@@ -211,7 +218,8 @@ option = {
             "type": "line",
             "data": [
                 36.02,
-                8.86
+                8.86,
+                34.55
             ],
             "markLine": {
                 "data": [
@@ -227,7 +235,8 @@ option = {
             "type": "line",
             "data": [
                 0.18,
-                0.1
+                0.1,
+                0.07
             ],
             "markLine": {
                 "data": [
@@ -243,7 +252,8 @@ option = {
             "type": "line",
             "data": [
                 0.11,
-                0.18
+                0.18,
+                0.94
             ],
             "markLine": {
                 "data": [
@@ -273,7 +283,8 @@ for (var i = 0; i < option.yAxis.length; i++) {
         show: i === option.yAxis.length - 1,
         "data": [
             "2016-2-4",
-            "2016-3-30"
+            "2016-3-30",
+            "2016-6-8"
         ]
     })
     option.series[i].xAxisIndex = i;
